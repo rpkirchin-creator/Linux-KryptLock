@@ -1,0 +1,41 @@
+{
+  "name": "kryptlock",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "engines": {
+    "node": "^20.20.2",
+    "npm": "^10.8.2"
+  },
+  "scripts": {
+    "dev": "vite --port=3000 --host=0.0.0.0",
+    "build": "vite build",
+    "build:deb": "node scripts/build-deb.mjs",
+    "preview": "vite preview --port=4173 --host=0.0.0.0",
+    "clean": "rm -rf dist",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "7z-wasm": "^1.2.0",
+    "@zip.js/zip.js": "^2.25.0",
+    "compressjs": "^1.0.3",
+    "fflate": "^0.8.3",
+    "lucide-react": "^0.546.0",
+    "lzma": "^2.3.2",
+    "node-unrar-js": "^2.0.2",
+    "react": "^19.0.1",
+    "react-dom": "^19.0.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.18",
+    "@types/lzma": "^2.3.0",
+    "@types/node": "^20.17.58",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@vitejs/plugin-react": "^4.7.0",
+    "esbuild": "^0.25.0",
+    "tailwindcss": "^4.1.18",
+    "typescript": "^5.8.3",
+    "vite": "^6.4.6"
+  }
+}

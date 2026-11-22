@@ -1,0 +1,6 @@
+{
+  "summary":  "Implementation plan to diagnose and fix the failed Ubuntu terminal install, add direct .deb Ubuntu package generation alongside a hardened install.sh bundle, fix desktop launcher PATH/Exec issues, and provide foolproof copy-ready terminal commands.",
+  "updatedAt":  "2026-11-21T20:14:53.548722785Z",
+  "requestFeedback":  true,
+  "userFacing":  true
+}

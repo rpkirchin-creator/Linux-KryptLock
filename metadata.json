@@ -1,0 +1,8 @@
+{
+  "name": "KryptLock",
+  "description": "Linux file compression and AES-256-GCM encryption utility with native GTK4 desktop application bundle.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
